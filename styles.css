@@ -152,5 +152,10 @@ h2 {
     flex-direction: column;
     .opcoes-acessibilidade button{
         margin-top: 5px;
+    
+    
+    }
+    .apresenta-lista{
+        display: none;
     }
  }
