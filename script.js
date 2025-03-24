@@ -1,5 +1,13 @@
 document.addEventListener ( 'DOMContentLoaded', function(){
-    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade');
+    const botaoDeAcessibilidade = document.getElementById('opcoes-acessibildade');
+
+    botaoDeAcessibilidade.addEventListener('click',function'){
+        botaoDeAcessibilidade.classList.toggle('btacao-botao');
+        botaoDeAcessibilidade.classList.toggle('apresenta-lista');
+
+    }
+    const aumentaFonteBotao = document.getElementById('aumenta--fonte');
     const diminuiFonteBotao = document.getElementById('diminuir-fonte');
     let tamanhoAtualFonte = 1;
     aumentaFonteBotao.addEventListener('click', function( ){
